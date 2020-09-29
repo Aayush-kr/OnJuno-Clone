@@ -1,0 +1,100 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    padding-top: 20px;
+    z-index: 1010;
+    background: rgba(255,255,255,1);
+    width: inherit;
+    padding-bottom: 20px;
+}
+
+.header__left {
+    display: flex;
+    align-items: center;
+
+}
+
+.header__links {
+    margin-left: 27px;
+}
+
+.header__links>ul {
+    display: flex;
+}
+
+.header__links>ul>li {
+    list-style: none;
+    margin-left: 2.5rem;
+    cursor: pointer;
+
+}
+
+
+
+
+.header__links>ul>li>a {
+    text-decoration: none;
+    color: gray;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.header__links>ul>li:first-child>a {
+    color: rgba(255, 102, 255);
+}
+
+.header__links>ul>li>a:hover {
+    --text-opacity: 1;
+    color: #474747;
+    color: rgba(71, 71, 71);
+
+}
+
+.MuiSvgIcon-root {
+    color: gray !important;
+    font-size: 16px;
+}
+
+.header__right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__login {
+    border: 2px solid #4643ee;
+    padding: 8px 30px;
+    color: #4643ee;
+    background: none;
+    border-radius: 10px;
+    font-family: LetteraTextLL;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.44;
+    letter-spacing: 0;
+    cursor: pointer;
+}
+
+.header__signup {
+    border: 2px solid #4643ee;
+    padding: 8px 30px;
+    color: #fff;
+    background: #4643ee;
+    border-radius: 10px;
+    font-family: LetteraTextLL;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.44;
+    letter-spacing: 0;
+    margin-left: 18px;
+    transition: 1s;
+    cursor: pointer;
+
+}
+
+.header__signup:hover {
+    box-shadow: inset 300px 0 0 #0f52ba;
+}

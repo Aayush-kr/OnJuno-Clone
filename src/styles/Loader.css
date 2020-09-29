@@ -1,0 +1,10 @@
+.MuiCircularProgress-svg{
+    display: none !important;
+}
+.makeStyles-root-1{
+    margin-top: -40px;
+}
+.WithStyles\(ForwardRef\(LinearProgress\)\)-bar-8 {
+    background: rgb(0, 168, 107)!important;
+
+}

@@ -1,0 +1,195 @@
+.offer {
+  display: flex;
+  flex-direction: column;
+  background: #f2f2f29c;
+  margin-top: 10px;
+}
+.offer__text {
+  display: grid;
+  place-items: center;
+  margin-top: 40px;
+}
+.offer__text {
+  text-align: center;
+}
+
+.offer__text > h2 {
+  font-size: 41px;
+  font-weight: 600;
+  opacity: 0.9;
+}
+
+.offer__text > h3 {
+  font-size: 22px;
+  font-weight: 500;
+  opacity: 0.9;
+  color: gray;
+}
+
+.offer__card {
+  /* display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    column-gap: 30px; */
+  /* padding: 0px; */
+
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 1em;
+  margin-top: 4em;
+}
+
+.offerCard__top {
+  height: 45%;
+  background: rgba(238, 253, 226);
+  width: 100%;
+}
+.offerCard__middle {
+  height: 70%;
+  background: #fff;
+
+  width: 100%;
+}
+
+.offerCard__bottom {
+  height: 25%;
+  background: rgba(194, 246, 227);
+  width: 100%;
+}
+
+.top_Content {
+  margin-top: 7em;
+  display: grid;
+  place-items: center;
+  margin-bottom: 1em;
+}
+
+.top_Content h3 {
+  font-size: 22px;
+  color: gray;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+
+.top_Content h1 {
+  color: rgba(70, 67, 238);
+  font-weight: 900;
+  font-size: 2.5em;
+  margin-top: -10px;
+}
+
+.top_Content h4 {
+  color: gray;
+  font-weight: 500;
+}
+
+.bottom_Content {
+  color: rgba(6, 135, 88);
+}
+
+.cashback {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 8px;
+}
+
+.badge {
+  background: rgb(0, 168, 107);
+  padding: 2px 5px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+  margin-right: 4px;
+  border: none;
+}
+
+.middle_btn {
+  border: 2px solid #4643ee;
+  padding: 15px 30px;
+  color: #fff;
+  background: #4643ee;
+  border-radius: 10px;
+  font-family: LetteraTextLL;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 1.44;
+  letter-spacing: 0;
+  margin: auto;
+  margin-top: 2em;
+  transition: 1s;
+  cursor: pointer;
+  width: 100%;
+}
+
+.middle_btn:hover {
+  box-shadow: inset 300px 0 0 #0f52ba;
+}
+
+.middle_Content {
+  display: flex;
+  flex-direction: column;
+}
+
+.middle_Content > button {
+  margin-top: 10px;
+}
+.middle_Content > hr{
+    color: gray;
+}
+.includes{
+    margin-top: 15px;
+    padding: 8px;
+}
+.includes h4{
+    color: lightgray;
+letter-spacing: 4px;
+font-size: 17px;
+padding: 8px
+}
+.includes__content{
+    padding: 7px;
+}
+
+.includes__content > p{
+    display: flex;
+    margin-top: 6px;
+}
+.includes__content  .MuiSvgIcon-root{
+    color: rgb(0, 168, 107)!important;
+    margin-right: 8px;
+
+}
+.includes__content > span {
+    font-weight: 500;
+}
+
+.middle_Content .middle_bottomText{
+    word-break: break-word;
+    padding: 14px;
+    color: gray;
+    
+}
+
+.bottom_Content{
+    display: grid;
+place-content: center;
+padding: 10px;
+}
+.bottom_Content h5{
+    color: black;
+    text-decoration: line-through;
+    font-size: 18px;
+}
+
+.bottom_Content h4{
+    font-size: 20px;
+    letter-spacing: 2px;
+
+}
+
+
+
+
+

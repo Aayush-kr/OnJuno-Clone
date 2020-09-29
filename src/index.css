@@ -1,8 +1,16 @@
-body {
+html {
+  font-family: MarkPro;
+  line-height: 1.5;
+}
+
+*, ::after, ::before {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  box-sizing: border-box;
+  border: 0 solid #e2e8f0;
+  
+}
+
+body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
